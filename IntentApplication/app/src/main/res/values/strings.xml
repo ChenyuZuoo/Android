@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IntentApplication</string>
+    <string name="text_intro">This is a button to click on:</string>
+    <string name="text_edit">Click to edit</string>
+    <string name="button_go">GO</string>
+    <string name="button_goback">GO BACK</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

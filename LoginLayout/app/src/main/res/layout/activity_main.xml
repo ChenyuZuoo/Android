@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="com.cheryl.loginlayout.MainActivity">
+
+    <TextView
+        android:id="@+id/loginID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/UsernameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginID"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/PasswordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Password"
+        android:layout_below="@+id/UsernameID"
+        android:layout_alignLeft="@id/UsernameID"
+        android:layout_alignRight="@id/UsernameID"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/ButtonCancelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/PasswordID"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/ButtonLoginID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_toLeftOf="@id/ButtonCancelID"
+        android:layout_alignBottom="@id/ButtonCancelID"
+        android:onClick="OnClickLoginButton"
+        />
+
+
+</RelativeLayout>

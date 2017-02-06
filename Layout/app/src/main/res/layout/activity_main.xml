@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cheryl.layout.MainActivity">
+
+    <CheckBox
+        android:id="@+id/Eating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eating"/>
+
+    <CheckBox
+        android:id="@+id/Chic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chic"/>
+
+    <CheckBox
+        android:id="@+id/Coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding"/>
+
+    <CheckBox
+        android:id="@+id/CheckAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckAll"/>
+
+</LinearLayout>

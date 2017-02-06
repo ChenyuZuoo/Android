@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    tools:context="com.cheryl.relativelayout.MainActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/firstTextViewID"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="The first TextView"-->
+        <!--android:layout_alignRight="@id/secondTextViewID"-->
+        <!--android:background="#ff0000"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/secondTextViewID"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="The second TextView"-->
+        <!--android:layout_below="@id/firstTextViewID"-->
+        <!--android:background="#00ff00"-->
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/thirdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:background="#ff0000"
+        android:textSize="65sp"
+        android:layout_marginLeft="50sp"/>
+
+    <TextView
+        android:id="@+id/forthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forth"
+        android:background="#00ff00"
+        android:textSize="40sp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
